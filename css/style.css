@@ -1,0 +1,78 @@
+body {
+  width: 1200px;
+  margin: auto;
+}
+
+.container {
+  width: 400px;
+  margin: 40px 40px;
+  box-shadow: 1px 3px 16px 7px #ccc;
+  padding: 15px;
+  font-family: menlo;
+  font-weight: 100;
+  letter-spacing: 1px;
+  float: left;
+}
+.order {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.cart{
+  width: 400px;
+  margin: 40px 40px;
+  box-shadow: 1px 3px 16px 7px #ccc;
+  padding: 15px;
+  font-family: menlo;
+  font-weight: 100;
+  letter-spacing: 1px;
+  flex-grow: 4;
+}
+
+
+h1, h2 {
+  font-family: 'gill sans';
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+
+.form-group {
+  display:block!important;
+}
+
+.inline {
+  display: inline-block!important;
+  width: 40px;
+}
+
+
+.list li {
+  display: none;
+  list-style-type: none;
+  margin: 10px;
+}
+
+.receipt {
+  padding: 20px;
+  display: block;
+  width: 200px;
+  background-image: url("../paper.jpg");
+  background-size: cover;
+  display: none;
+}
+
+.press {
+  margin: 10px;
+
+}
+
+#end {
+  display: inline-block;
+  float: right;
+}

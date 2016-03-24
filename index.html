@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <title>BROSCIENCE</title>
+  </head>
+      <body>
+        <div class="container">
+          <h1>Bro Science</h1>
+          <p><em>Without protein, You're basically just a regular person.</em></p>
+          <form id="order">
+            <div class="form-group">
+              <p><span id="optimind">OptiMind</span> $<span class="opti-price">30</span> <span class="inline"><input id="product1" class="form-control" type="text"></span></p>
+            </div>
+            <div class="form-group">
+              <p><span id="piracetam">Piracetam</span> $<span class="p-price">15</span> <span class="inline"><input id="product2" class="form-control" type="text"></span></p>
+            </div>
+            <div class="form-group">
+              <p><span id="creatine">Creatine</span> $<span class="cr-price">22</span> <span class="inline"><input id="product3" class="form-control" type="text"></span></p>
+            </div>
+            <div class="form-group">
+              <p><span id="supp">Gluten-free Supp</span> $<span class="sup-price">100</span> <span class="inline"><input id="product4" class="form-control" type="text"></span></p>
+            </div>
+            <div class="press">
+              <button type="submit" id = "addtocart" class="btn">Add to Cart</button>
+            </div>
+          </form>
+        </div>
+        <div class="order">
+          <div class="cart"> <!--Start of Cart -->
+            <h2>Your cart</h2>
+              <div class="list">
+                <li id="one"> <span class="optimind"></span> : $<span class="opti-total"></span></li>
+                <li id="two"><span class="piracetam"> </span> : $<span class="p-total"></span></li>
+                <li id="three"><span class="creatine"> </span> : $<span class="cr-total"></span></li>
+                <li id="four"><span class="supp"> </span> : $<span class="sup-total"></span></li>
+              </div>
+              <div class="press totals">
+                <button type="submit" id ="press-total" class="btn">Total</button>
+              </div>
+              <p id="end">$<span id="total"></span></p>
+              <div class="press">
+                <button type="submit" class="btn">Order</button>
+              </div>
+          </div>
+
+          <div class="row receipt">
+            <h2>Thank you for your purchase <span class="name"></span>!</h2>
+            <p>Remember, back is the legs of the upper body...</p>
+          </div>
+        </div>
+
+
+
+    </html>
+
+    <script src="https://code.jquery.com/jquery-2.2.2.js" integrity="sha256-4/zUCqiq0kqxhZIyp4G0Gk+AOtCJsY1TA00k5ClsZYE="   crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
